@@ -1,36 +1,42 @@
-/* body {
-  background-image: url("./assets/background.png");
-  background-image: url("./assets/shahadat-rahman.jpg");
-  background-size: 110%;
-  background-repeat: no-repeat;
-  background-position: center, center, top center;
-  padding-top: 10em;
-} */ 
-
 * {
   box-sizing: border-box;
 }
 
 .NavbarItems {
   display: flex;
-  flex-direction: column;
-  /* box-shadow: 0px 0px 10px lightgrey; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  /* color: linear-gradient("theme.palete.secondary", "theme.palete.secondary", 0%) */
 }
 
 .title {
-  justify-content: flex-start;
-  align-self: flex-start;
+  /* font-weight: bolder; */
   text-decoration: none;
+  margin-right: auto;
+  margin-left: 2rem;
+  display: block;
+  /* https://bootcamp.uxdesign.cc/gradient-text-in-css-609068d3f953 */
+  /* color: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100% */
 }
 
 .links {
-  display: flex;
-  /* flex-direction: row-reverse; */
-  justify-content: flex-end;
-  align-self: flex-start;
   text-decoration: none;
+  justify-content: flex-end;
+  margin: 1rem;
+  display: block;
 }
 
-.container {
-  position: center center top center;
+.title :hover,
+.links :hover {
+  box-shadow: 0px 0px 10px lightgrey;
+  transition: all 200ms ease-in;
+  color: "theme";
 }
+
+
+.container {
+  position: center center center;
+}
+
