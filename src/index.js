@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
-import { ThemeProvider, createTheme } from '@mui/material';
+import { ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material';
 
-const theme = createTheme({
+let theme = createTheme({
   palette: {
     primary: {
       dark: '#008094',
@@ -18,6 +18,8 @@ const theme = createTheme({
     }
   },
 });
+
+theme = responsiveFontSizes(theme);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
