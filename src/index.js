@@ -29,3 +29,5 @@ root.render(
     </React.StrictMode>
   </ThemeProvider>
 );
+
+export default theme;
