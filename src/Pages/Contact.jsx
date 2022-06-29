@@ -38,10 +38,10 @@ function Contact(props) {
         color="secondary"
         // margin="normal"
         style={{ marginTop: 10 }}
-        fullWidth="true"
+        fullWidth={true}
         multiline
         rows={5}
-        maxRows={15}
+        rowsMax={15}
         flex-basis="auto"
         // value={message}
         // onChange={handleChange}

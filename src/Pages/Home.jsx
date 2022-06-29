@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-// import { Routes, Route, Link } from "react-router-dom";
 import { Typography, Container } from '@mui/material';
 
 function Home(props) {
@@ -8,8 +6,8 @@ function Home(props) {
       <Typography variant="h1" color="primary.dark">
         Hey, I'm Liz.
       </Typography>
-      <Typography variant="h4" >
-        Software Engineer
+      <Typography variant="h4" maxWidth="sm">
+        I'm a Software Engineer currently based out of Oklahoma City.
       </Typography>
     </Container>
   );

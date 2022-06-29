@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .NavbarItems {
   display: flex;
@@ -8,35 +8,33 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  /* color: linear-gradient("theme.palete.secondary", "theme.palete.secondary", 0%) */
 }
 
 .title {
-  /* font-weight: bolder; */
   text-decoration: none;
   margin-right: auto;
   margin-left: 2rem;
-  display: block;
-  /* https://bootcamp.uxdesign.cc/gradient-text-in-css-609068d3f953 */
-  /* color: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100% */
 }
 
 .links {
   text-decoration: none;
   justify-content: flex-end;
   margin: 1rem;
-  display: block;
 }
 
 .title :hover,
 .links :hover {
-  box-shadow: 0px 0px 10px lightgrey;
+  box-shadow: 2px 2px 5px lightgrey;
   transition: all 200ms ease-in;
-  color: "theme";
 }
-
 
 .container {
   position: center center center;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
