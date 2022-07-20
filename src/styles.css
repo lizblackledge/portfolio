@@ -1,7 +1,3 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 .NavbarItems {
   display: flex;
   flex-direction: row;
@@ -16,16 +12,21 @@
   margin-left: 2rem;
 }
 
+.pages,
 .links {
   text-decoration: none;
   justify-content: flex-end;
   margin: 1rem;
 }
 
-.title :hover,
+.pages :hover,
+.title :hover {
+  color: #008094;
+}
+
+
 .links :hover {
-  box-shadow: 2px 2px 5px lightgrey;
-  transition: all 200ms ease-in;
+  color: #618833;
 }
 
 .container {
@@ -37,4 +38,8 @@
   flex-direction: row wrap;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.backToTop {
+  scroll-behavior: "smooth";
 }

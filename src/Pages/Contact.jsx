@@ -39,7 +39,6 @@ function Contact(props) {
         setValues({
           fullName: '',
           email: '',
-          role: '',
           message: ''
         });
       })
