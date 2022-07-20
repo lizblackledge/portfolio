@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-// import emailjs from '@emailjs/browser';
-// import { send } from 'emailjs-com';
 import { Typography, Container, TextField, Grid, Button } from '@mui/material';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 

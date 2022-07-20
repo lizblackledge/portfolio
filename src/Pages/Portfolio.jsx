@@ -7,7 +7,6 @@ import kaffia from '../assets/kaffia1.png';
 
 
 function Portfolio(props) {
-  const { primary, secondary } = props.theme.palette
   return (
     <Container maxWidth="2xl" sx={{ display:"flex", flexWrap: "wrap", alignItems:"center", justifyContent:"center"}}>
       <Container maxWidth="lg" >
