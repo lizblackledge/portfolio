@@ -2,7 +2,7 @@ import { Typography, Container, Grid, Button, Box  } from '@mui/material';
 import estrella from '../assets/EstrellaCoffeeCo.png'
 import langchat from '../assets/LangChat.png';
 import kayakpal from '../assets/KayakPal.png';
-import tubi from '../assets/TubiCards.png';
+import memtool from '../assets/MemTool.png';
 import kaffia from '../assets/kaffia1.png';
 
 
@@ -46,21 +46,21 @@ function Portfolio(props) {
             </Typography>
             <Button size="medium" variant="contained" color="primary" style={{ marginTop: 10}} href="https://github.com/Liz5112/langchat" rel="noreferrer" target="_blank">Code</Button>
           </Grid>
-          {/* Item 3: Tubi Cards */}
+          {/* Item 3: Memtool */}
           <Grid item xs={6} minWidth="400px" >
-          <Typography gutterBottom variant="h4" component="div" color='secondary.dark'>Tubī Cards </Typography>
+          <Typography gutterBottom variant="h4" component="div" color='secondary.dark'>MemTool </Typography>
           <Box
               component="img"
               width="95%"
               boxShadow={3}
-              alt="photo of Tubi Flashcards"
-              src={tubi}
+              alt="photo of MemTool Flashcards"
+              src={memtool}
             />
             <Typography gutterBottom variant="h6" component="div" marginTop="1rem">Sleek and Efficient Memorization Tool</Typography>
             <Typography variant="body1" color="text.secondary">
             Contructed React components that utilize Hooks to modify component behavior. Also utilized Chakra UI, Node.js/Express, and PostgreSQL to store user-generated decks and cards. Continuing to add React Testing Library unit tests and migrate to TypeScript.
             </Typography>
-            <Button size="medium" variant="contained" color="primary" style={{ marginTop: 10}}  href="https://github.com/Liz5112/tubi-cards" rel="noreferrer" target="_blank">Code</Button>
+            <Button size="medium" variant="contained" color="primary" style={{ marginTop: 10}}  href="https://github.com/Liz5112/MemTool" rel="noreferrer" target="_blank">Code</Button>
           </Grid>
           {/* Item 4: Kayak Pal */}
           <Grid item xs={6} minWidth="400px" >
