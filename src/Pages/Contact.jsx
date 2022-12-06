@@ -10,7 +10,7 @@ const initialValues = {
   message: ''
 }
 
-function Contact(props) {
+function Contact() {
 
   // set state values as they type
   const [values, setValues] = useState(initialValues);
@@ -97,7 +97,7 @@ function Contact(props) {
             />
           </Grid>
           <Grid item>
-            <Button variant="contained" type="submit" style={{ marginTop: 10, color:"white", bgColor:"#008094" }} >Submit Message <KeyboardArrowRightIcon /></Button>
+            <Button variant="contained" type="submit" onSubmit={sendEmail} style={{ marginTop: 10, color:"white", bgColor:"#008094" }} >Submit Message <KeyboardArrowRightIcon /></Button>
           </Grid>
         </Grid>
       </form>

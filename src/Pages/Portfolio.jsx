@@ -48,7 +48,7 @@ function Portfolio(props) {
           </Grid>
           {/* Item 3: Memtool */}
           <Grid item xs={6} minWidth="400px" >
-          <Typography gutterBottom variant="h4" component="div" color='secondary.dark'>MemTool </Typography>
+          <Typography gutterBottom variant="h4" component="div" color='secondary.dark'>MemTool</Typography>
           <Box
               component="img"
               width="95%"
